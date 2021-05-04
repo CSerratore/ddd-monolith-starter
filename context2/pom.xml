@@ -1,0 +1,23 @@
+    <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+
+        <!-- Derived from (https://github.com/oliviercailloux/Java-Archetype) -->
+
+        <groupId>io.github.cserratore</groupId>
+        <artifactId>context2</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <packaging>pom</packaging>
+
+		<modules>
+			<module>context2-domain-model</module>
+			<module>context2-domain-usecases</module>
+			<module>context2-domain-event-usecases</module>
+			<module>context2-ui-stdstreams</module>
+			<module>context2-serializer-gson</module>
+			<module>context2-db-java-collections</module>
+			<module>context2-container-console</module>
+		</modules>
+        
+    </project>
+    
